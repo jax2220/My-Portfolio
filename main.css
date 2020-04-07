@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: #222022;
+}
+/* taking away default styling for all a tags  and making white*/
+
+a{
+    text-decoration: none;
+    color: #efedef;
+}
+
+/* nav bar on top of the page and log */
+
+.top-banner h1{
+    color: #efedef;
+    margin-left: 40px;
+}
+.top-banner{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    position: absolute;
+    right: 20px;
+}
+.nav-list{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+} 
+.nav-list li{
+    margin: 10px;
+}
+
+/* styling for the main section intro on the index.html page*/
+
+main{
+    margin: auto;
+}
+.intro{
+    margin-top: 15%;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* buttons for the about me and projects page. on main */
+.main-boxes{
+    display: flex;
+    margin-top: 40px;
+}
+.main-boxes a{
+    background-color: #cfa144;
+    padding: 14px 35px;
+    border-radius: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #fff;
+    font-size: 9px;
+    line-height: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main-boxes a:hover{
+ background-color: black;
+}
+
+/* styling for the main hook */
+
+.hook{
+    color: #efedef;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/* change the nav li to grean for what page you are on */
+
+.current-page{
+    color: #6ead3a; 
+}
+
+/* styling the the about me page */
+
+.about-me-main{
+    color: #efedef;
+    width: 100%;
+}
+
+.about-me-main h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.about-me-main p{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+.contact-me h2{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* projects img and copy*/
+img{
+    width: 350px;
+    height: 200px;
+}
+
+.projects{
+    color: #efedef;
+    display: flex;
+    justify-content: center;
+}
+
+.projects div{
+    width: 50%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects span{
+    width: 60%;
+}
+
+.projects a{
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #cfa144;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    
+}
+.projects a:hover{
+    background-color: black;
+}
+
+.project-links{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+}
